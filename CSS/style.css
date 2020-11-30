@@ -11,7 +11,7 @@
 
 body {
     background-image: url(../pics\ for\ web/background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 h1.center, h2.center{
     text-align: center;
@@ -25,7 +25,7 @@ img.center {
 
 a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
 }
 a:link {
     color: #000000;
@@ -34,13 +34,14 @@ a:active, a:visited {
     color: #7f74a9
 }
 
+
 ul.menu {
-    float: left;
     list-style: none;
 }
 li.left{
     float: right;
     clear: both;
+    padding-right:1.7rem;
 }
 li.top {
     padding-bottom: 5rem;
@@ -55,10 +56,11 @@ p {
  .below {
     padding-bottom: 5rem;
 }
-div.menu {
-    margin: 0 auto;
-    width: 99%;
+div.left, div.right {
+    float:left;
+    width:50%;
 }
+
 
 h1.resume, h2.resume {
     font-size: 1.25rem;
@@ -74,5 +76,8 @@ li.resume, h3.resume{
     font-family: opensans-semibold-webfont, sans-serif;
 }
 a.about {
-    font-size:1rem;
+    font-size:1rem;  
+}
+a.about:link {
+    color: #7f74a9
 }
