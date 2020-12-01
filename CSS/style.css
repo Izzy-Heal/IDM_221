@@ -52,6 +52,8 @@ h1,h2, li.menu {
 
 p {
     font-family: opensans-semibold-webfont, sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
  .below {
     padding-bottom: 5rem;
